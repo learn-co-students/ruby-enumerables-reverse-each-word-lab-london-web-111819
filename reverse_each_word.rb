@@ -5,9 +5,9 @@ def reverse_each_word(sentence)
   i=0 ; reversed_sentence =''
   while i < reversed_words_array.length do
     if i==(splitted_words_array.length-1)
-    reversed_sentence = reversed_sentence + reversed_words_array[i]
+    reversed_sentence += reversed_words_array[i]
     else
-    reversed_sentence = reversed_sentence + reversed_words_array[i] + " "
+    reversed_sentence += reversed_words_array[i] + " "
     end
     i+=1 
   end
